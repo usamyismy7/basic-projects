@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "tailwindcss",
+  "description": "contains many concepts of tailwindcss including advanced features and how to use them.",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch",
+    "build": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
